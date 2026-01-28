@@ -2,6 +2,8 @@
 
 A simple Tampermonkey script to automate the deletion of saved analysis games on Chess.com.
 
+![Chess.com Saved Analysis Interface](chesscom-saved-analysis.png)
+
 ## ♟️ The Problem
 If you use Chess.com for analyzing games imported from other platforms (like Lichess or OTB games), your "Saved Analysis" library can grow indefinitely. 
 
