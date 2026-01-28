@@ -37,7 +37,7 @@
         }
         return false;
     }
-    console.log("🤖 Auto-Deleter v1.3: Starting...");
+    console.log("🤖 Auto-Deleter v1: Starting...");
     await sleep(CONFIG.PAGE_LOAD_WAIT);
     let safetyCounter = 0;
     const MAX_ITEMS_PER_BATCH = 100;
@@ -83,3 +83,4 @@
     }
 
 })();
+
