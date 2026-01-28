@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Chess.com Analysis Bulk Deleter
-// @namespace    https://github.com/georgegognadze/chess-com-bulk-delete
+// @namespace    https://github.com/georgegognadze/chess-com-bulk-deleter
 // @description  Deletes analysis items reliably by waiting for the list to update.
 // @version      1
 // @author       George Gognadze
@@ -81,4 +81,5 @@
     } else {
         window.location.href = "https://www.chess.com/analysis/saved?page=1";
     }
+
 })();
