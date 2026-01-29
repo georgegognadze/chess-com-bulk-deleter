@@ -6,7 +6,6 @@
 // @author       George Gognadze
 // @match        https://www.chess.com/analysis/saved*
 // ==/UserScript==
-
 (async function () {
     'use strict';
     const CONFIG = {
@@ -81,6 +80,4 @@
     } else {
         window.location.href = "https://www.chess.com/analysis/saved?page=1";
     }
-
 })();
-
