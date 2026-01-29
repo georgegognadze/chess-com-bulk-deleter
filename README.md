@@ -7,7 +7,7 @@ A simple Tampermonkey script to automate the deletion of saved analysis games on
 ## ♟️ The Problem
 If you use Chess.com for analyzing games imported from other platforms (like Lichess or OTB games), your "Saved Analysis" library can grow indefinitely. 
 
-Currently, Chess.com limits the view to 50 games per page and **does not offer a "Select All" or "Bulk Delete" feature**. If you have 200+ pages of analysis (10,000+ games), **you are facing the prospect of manually clicking "Delete" → "Confirm" → "Delete" → "Confirm" ten thousand times.**
+Currently, Chess.com limits the view to 50 games per page and does not offer a “Select All” or “Bulk Delete” feature. With 200+ pages of analysis (10,000+ games), this means manually repeating Delete → Confirm for each game — resulting in over 20,000 individual clicks.
 
 ## 🛠️ The Solution
 This script automates the process:
